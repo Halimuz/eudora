@@ -1,0 +1,164 @@
+/* small Version */
+
+@media(max-width:768px){
+    body{
+        text-align: center;
+    }
+    .header_top{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .navbar-toggler{
+        color: #fff;
+        font-size: 16px;
+        padding: 3px 6px;
+        margin-right: 5%;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .navbar_toggler_icon i{
+        font-size: 24px;
+    }
+    .bg_section{
+        width: 100%;
+    }
+    .support_boxes {
+        width: 33%;
+        margin-bottom: 30px;
+    }
+    .support_info h4{
+        font-size: 18px;
+    }
+    .support_info p{
+        font-size: 14px;
+    }
+    .service_box {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 33px;
+    }
+    .service_btn {
+        align-items: center;
+        width: 200px;
+        margin: auto;
+    }
+    .service_btn a{
+        margin-top: 20px;
+    }
+    .steps_phone_img{
+        margin-bottom: 50px;
+    }
+    .steps_title::after{
+        left: 45%;
+    }
+    .steps_info_unit {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .steps_info_icon img {
+        width: 50%;
+    }
+    .steps_info_text {
+        margin: 0px 20px;
+    }
+    .transections_area{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .ring_img_area {
+        width: 50%;
+        margin: auto;
+    }
+    .ring_img_area img{
+        width: 100%;
+    }
+    .ring_info_icon {
+        width: 50px;
+        margin: auto;
+    }
+    .ring_info_area a{
+        font-size: 13px;
+    }
+    .ring_info_01{
+        left: 10%;
+    }
+    .ring_info_02{
+        left: 0;
+    }
+    .ring_info_03{
+        right: 10%;
+    }
+    .ring_info_04{
+        right: 10%;
+    }
+    .ring_info_05{
+        right: 0;
+    }
+    .ring_info_06{
+        left: 10%;
+    }
+    .expert {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .blog {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .section_title{
+        margin: 50px 0px;
+    }
+    .blog_section .section_title{
+        margin-bottom: 0px;
+    }
+    .testimonial_section .section_title{
+        margin-top: 0;
+    }
+    .testimonial_icon{
+        left: 55%;
+        bottom: 18%;
+    }
+    .footer_social_icon{
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .footerInfo_box {
+        margin: 20px 30px;
+    }
+    .footerInfo_box .section_title{
+        text-align: center;
+    }
+    .footerInfo_area{
+        display: inline-block;
+    }
+    .footerInfo h6{
+        text-align: left;
+    }
+    .footerInfo_box .section_title::after{
+        left: 45%;
+    }
+    .footer_bottom .navbar .navbar-toggler{
+        display: none;
+    }
+    .footer_bottom .navbar-brand{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+/* Mobile Version */
+
+@media(max-width:425px){
+    .support_boxes {
+        width: 85%;
+    }
+    .support_info h4{
+        font-size: 20px;
+    }
+    .support_info p{
+        font-size: 16px;
+    }
+}
